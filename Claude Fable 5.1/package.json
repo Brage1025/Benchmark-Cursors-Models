@@ -1,0 +1,19 @@
+{
+  "name": "task-summary",
+  "version": "1.0.0",
+  "description": "A small, dependency-free TypeScript utility for summarizing a list of tasks.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "test": "node --test \"src/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^5.9.3"
+  }
+}

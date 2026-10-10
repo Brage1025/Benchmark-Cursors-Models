@@ -1,0 +1,8 @@
+{
+  "name": "task-summary",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/summarizeTasks.test.ts"
+  }
+}
