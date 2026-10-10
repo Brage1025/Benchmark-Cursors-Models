@@ -143,6 +143,14 @@ Screenshots of outputs:
 - The README says Node 18 or newer is enough. But the unquoted `dist/**/*.test.js` glob relies on `node --test` expanding the glob itself, which Node only does from version 21. On Node 18 or 20 the documented command would likely find no tests.
 - The README doesn't explain any design decisions, even though the prompt explicitly asked for that.
 
+## Conclusion
+
+Based on my experiment, Claude Fable 5.1 performed best for this task because of it's thorough testing and excellent README. Combined with the clear naming convention it is definitely my pick here.
+
+Grok 4.7 was had the best ease of use, while Composer 2.5 was less effective since it states that Node 18 or newer is enough to run this tho the unquoted `dist/**/*.test.js` glob relies on node `--test` expanding the glob itself, which Node only does from version 21.
+
+This experiment showed me that different AI models can produce different results even when given the same coding prompt. Testing the generated code and comparing the results is important when choosing a model for development work.
+
 ---
 
 <div align="center">
